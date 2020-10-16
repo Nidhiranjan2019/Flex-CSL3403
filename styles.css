@@ -1,0 +1,57 @@
+body{
+    background-image: linear-gradient(#ddd6f3,#faaca8);
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+img{
+    width: 350px;
+    height: 300px;
+    margin: 10px;
+    transition: all 1s;
+    box-shadow: 8px 8px 8px gray;
+}
+img:hover{
+   
+   
+  transform-style: preserve-3d;
+
+  transform: scale(1.4)  rotateZ(180deg)  ;
+  border: #faaca8;
+  border-radius: 5%;
+
+}
+
+h1{
+   font-size: 50px; 
+   font-family: "League Gothic", Impact, sans-serif;
+    animation: color-change 2s infinite;
+}
+
+  
+@keyframes color-change {
+    0% { color: red; }
+    50% { color: blue; }
+    100% { color: black; }
+  }
+
+.heading{
+margin-left: 10%;
+font-size: 150%;
+}
+
+#head :hover{
+width: 80%;
+border-radius: 4%;
+border-color: black;
+background-color: violet;
+color: steelblue;
+text-align: center;
+margin-left: 10%;
+margin-right: 10%;
+padding: 2%;
+box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+animation: color-change 2s infinite;
+}
